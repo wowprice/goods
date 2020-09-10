@@ -1,0 +1,84 @@
+.techno .recommended__carousel,
+.techno .main_goods__carousel {
+  display: block;
+}
+
+.techno .main_goods__item ,
+.techno .recommended__item,
+.techno .catalog-grid__item {
+    display: inline-table;
+    margin-bottom: 15px;
+    float: none;
+}
+
+.techno .main_goods__item {width: 195px;}
+.techno .recommended__item {width: 206px;}
+.techno .catalog-grid__item {width: 195px;}
+
+.techno .layout_main_page .slider{
+  display: block;
+}
+.techno .layout_main_page .slider__item{
+  display: none;
+}
+
+.techno .layout_main_page .slider__item:first-child {
+  display: block;
+}
+
+.techno .layout__goods .layout__aside {
+  margin-top: 240px;
+}
+
+.techno .buy__button-quick_order,
+.techno .social,
+.techno .buy__button_sendsp,
+.techno .unit__button.sendsp,
+.techno .order__more a.callmehead,
+.techno .contact__call a.callmehead,
+.techno .basket__counter
+.techno .subscription {
+  display: none;
+}
+
+.techno .header_noJsWarning_holder {
+  margin: 0 auto;
+  max-width: 1280px;
+  text-align: center;
+}
+
+.techno .header_noJsWarning {
+  background: #FF6C6A;
+  margin: 30px 22px 10px;
+  padding: 10px;
+  width: auto;
+  color: #fff;
+}
+
+.techno .unit__multiprice_selectbox select{
+  display: none;
+}
+.techno .unit__multiprice_selectbox:after {
+  content: 'от ';
+  font-size: 18px;
+  color: #000;
+}
+
+.techno .buy__select:before {
+  content: 'Цена может отличаться (выключен JavaScript)';
+}
+
+ {
+  display: none;
+}
+
+.basket__total-price__btn {
+  display: none;
+}
+
+.techno .catalog-grid,
+.techno .main_goods,
+.techno .recommended
+{
+    visibility: visible;
+}

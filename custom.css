@@ -1,0 +1,40 @@
+
+/************************************************
+ * Custom styles
+ ************************************************/
+.catalog_subcatalog__item {
+    height: 149px;
+    position: relative;
+}
+.catalog_subcatalog__section {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+.techno .catalog_subcatalog__item img {
+    max-width: 100%;
+    max-height: 100px;
+}
+.product-text {
+    margin: 10px 0;
+}
+.techno .buy__articul {
+    float: left;
+    color: #000;
+}
+
+.techno .catalog-grid__item {
+    display: inline-block;
+    float: none;
+}
+
+
+/************************************************
+ * Images
+ ************************************************/
+
+.techno .content-block {
+    background: url("urn:scrapbook:download:error:https://www.smartpet.ru/images/layout.jpg") no-repeat 50% 0;
+}
+
+.techno .recommended .owl-theme .owl-controls .owl-buttons .owl-prev, .techno .recommended .owl-theme .owl-controls .owl-buttons .owl-next{opacity:1 !important;}
